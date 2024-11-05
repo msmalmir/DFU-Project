@@ -39,20 +39,7 @@ To classify between conditions, a transformer model was implemented following th
 ### Pathway Enrichment Analysis
 Attention scores from the final layer were summed for each gene and sorted to identify the top 20 genes. Enrichment analysis was conducted using the **enrichr** package, with pathway databases including Hallmark, Gene Ontology, KEGG, Reactome, and Diabetes Perturbations GEO.
 
-## Results
-Attention weights allowed us to identify significant gene pathways and features for each condition, contributing to a better understanding of molecular functions related to DFU healing.
 
-## References
-1. Theocharidis et al., 2022 - [Single cell transcriptomic landscape of diabetic foot ulcers](https://doi.org/10.1038/s41467-021-27884-3)
-2. Hao et al., 2021 - "Integrated analysis of multimodal single-cell data"
-3. Hafemeister and Satija, 2019 - "Normalization and variance stabilization of single-cell RNA-seq data"
-4. Zhang et al., 2022 - "Transformer for gene expression modeling (T-GEM)"
-5. Ba et al., 2016 - "Layer normalization"
-6. Kuleshov et al., 2016 - "Enrichr: a comprehensive gene set enrichment analysis web server"
-7. Liberzon et al., 2015 - "The molecular signatures database hallmark gene set collection"
-8. Aleksander et al., 2023 - "The gene ontology knowledgebase"
-9. Kanehisa and Goto, 2000 - "KEGG: kyoto encyclopedia of genes and genomes"
-10. Croft et al., 2010 - "Reactome: a database of reactions, pathways and biological processes"
 
 ---
 
